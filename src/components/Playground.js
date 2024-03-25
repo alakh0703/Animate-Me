@@ -9,7 +9,7 @@ function Playground() {
     let changeText = "cnamediv scale-in-hor-left";
     const [code, setCode] = useState(Bounce); // [state, setState
     const [playground , setPlayground] = useState(true);
-    const [text, setText] = useState('Alakh Patel');
+    const [text, setText] = useState('John Wick');
 
     const maintext = useRef("");
     const nameChangeHandler = () => {
